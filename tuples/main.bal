@@ -22,6 +22,13 @@ public function main() {
 
     io:println(guys);
 
+    //filler values
+    int[3] numbers = [];
+    io:println(numbers);
+
+    [boolean, int...] scores = [];
+    io:println(scores);
+
 }
 
 function getPersonDetails() returns [int, boolean]{
